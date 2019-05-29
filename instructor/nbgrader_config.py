@@ -2,6 +2,6 @@ from nbgrader.utils import get_username
 
 c = get_config()
 
-c.NbGrader.course_id = "demo"
-c.NbGrader.db_assignments = [dict(name="ps1")]
-c.NbGrader.db_students = [dict(id=get_username())]
+c.Exchange.course_id = "demo"
+c.CourseDirectory.db_assignments = [dict(name="ps1")]
+c.CourseDirectory.db_students = [dict(id=get_username())]
